@@ -2,7 +2,6 @@
 
 Pile::Pile()
 {
-
 	HowMuchElements = 0;
 }
 Pile::~Pile()
@@ -11,7 +10,6 @@ Pile::~Pile()
 }
 code Pile::push(const StackSort &val)
 {
-
 	if (!full())
 	{
 		StackArray[HowMuchElements++] = val;
