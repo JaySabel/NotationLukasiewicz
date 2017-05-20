@@ -86,7 +86,7 @@ void DoOperator(char theOperator, Pile &thePile)
 {
 	double A, B, result = 0;
 
-	// we call the function top and secondTop for have access to value becaus they are passed in reference
+	// we call the function top and secondTop for have access to value because they are passed in reference
 	thePile.top(A);
 	thePile.secondTop(B);
 
